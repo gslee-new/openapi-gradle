@@ -87,3 +87,5 @@ openApiGenerate {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+compileJava.dependsOn tasks.named("openApiGenerate")
