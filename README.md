@@ -236,15 +236,15 @@ public class PetControllerImpl implements PetApi {
 ### Swagger-ui
 서버를 실행하고 swaggger ui를 확인하여 명세한 rest api가 존재하는지 확인
 url: localhost:8080/swagger-ui.html
-------
+
+
 ![ex_screenshot](/src/main/resources/static/img/img.png)
-<img src="/src/main/resources/static/img/img.png", height="100x", width="100x">
 
 ### 실행
-gradle clean
-gradle openApiGeneratoe
-gradle build
-java -jar build/libs/***.jar
+- gradle clean
+- gradle openApiGeneratoe
+- gradle build
+- java -jar build/libs/***.jar
 
 
 ### 참조
